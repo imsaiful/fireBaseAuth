@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "878913062014",
+    "firebase_url": "https://saiffireapp.firebaseio.com",
+    "project_id": "saiffireapp",
+    "storage_bucket": "saiffireapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878913062014:android:e8dfdb512f6488e5",
+        "android_client_info": {
+          "package_name": "com.app3.imsaiful.saiffireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878913062014-004fe3124pting96l7rpebpqsah90fl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app3.imsaiful.saiffireapp",
+            "certificate_hash": "56949514d80ffeb9616ab35d304bbbe16e07eaae"
+          }
+        },
+        {
+          "client_id": "878913062014-t5r5stnqjgteicbhibiktekstnvqm57l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs40RLvYqTd1yxzB1OMTWPBwbAAFaUCi4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878913062014-t5r5stnqjgteicbhibiktekstnvqm57l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

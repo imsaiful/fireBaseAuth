@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0e96f9"
+    tools:context="com.app3.imsaiful.saiffireapp.MainActivity">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lout"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/firebase"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="Enter uname"
+            android:background="#ffffff"
+            android:layout_marginTop="10dp"
+            android:id="@+id/uname"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="Password"
+            android:background="#ffffff"
+            android:id="@+id/upas"
+            android:layout_marginTop="20dp"
+             />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Submit"
+            android:id="@+id/sbtn"
+            android:onClick="validate"
+            android:elevation="4dp"
+            android:background="#F4D03F"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
